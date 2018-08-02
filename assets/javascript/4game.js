@@ -63,7 +63,7 @@ function crystalClick() {
     losses++;
     totalReset();
   }
-}
+};
 
 //Throughout life cycle of the document, accounting for every single time document is dynamically changed execute crystalClick function
 $(document).on("click", ".crystal", crystalClick);
